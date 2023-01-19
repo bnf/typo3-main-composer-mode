@@ -1,0 +1,39 @@
+{
+  "name": "bnf/typo3-core-composer",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../TYPO3.CMS/typo3/sysext/*",
+      "options": {
+        "symlink": true
+     }
+    },
+    { "type": "composer", "url": "https://composer.typo3.org/" }
+  ],
+  "authors": [
+    {
+      "name": "Benjamin Franzke",
+      "email": "bfr@qbus.de"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "typo3/class-alias-loader": true,
+      "typo3/cms-composer-installers": true
+    }
+  },
+  "require": {
+    "typo3/cms-backend": "dev-main",
+    "typo3/cms-core": "dev-main",
+    "typo3/cms-dashboard": "dev-main",
+    "typo3/cms-extbase": "dev-main",
+    "typo3/cms-extensionmanager": "dev-main",
+    "typo3/cms-filelist": "dev-main",
+    "typo3/cms-fluid": "dev-main",
+    "typo3/cms-frontend": "dev-main",
+    "typo3/cms-install": "dev-main",
+    "typo3/cms-recordlist": "dev-main",
+    "typo3/cms-scheduler": "dev-main"
+  }
+}
+

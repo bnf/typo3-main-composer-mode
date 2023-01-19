@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  web:
+    volumes:
+      - type: bind
+        source: ../../TYPO3.CMS/
+        target: /var/www/TYPO3.CMS/

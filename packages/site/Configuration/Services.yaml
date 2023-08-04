@@ -1,0 +1,5 @@
+services:
+  Bnf\Site\Demo:
+    public: true
+    arguments:
+      - '@TYPO3\CMS\Core\Page\PageRenderer'

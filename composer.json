@@ -3,10 +3,17 @@
   "repositories": [
     {
       "type": "path",
+      "url": "packages/*",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
       "url": "../TYPO3.CMS/typo3/sysext/*",
       "options": {
         "symlink": true
-     }
+      }
     },
     { "type": "composer", "url": "https://composer.typo3.org/" }
   ],
@@ -33,7 +40,19 @@
     "typo3/cms-frontend": "dev-main",
     "typo3/cms-install": "dev-main",
     "typo3/cms-recordlist": "dev-main",
-    "typo3/cms-scheduler": "dev-main"
+    "typo3/cms-scheduler": "dev-main",
+    "typo3/cms-setup": "dev-main",
+    "typo3/cms-t3editor": "dev-main",
+
+    "typo3/cms-fluid-styled-content": "dev-main",
+    "typo3/cms-form": "dev-main",
+    "typo3/cms-impexp": "dev-main",
+    "typo3/cms-info": "dev-main",
+    "typo3/cms-info-pagetsconfig": "dev-main",
+    "typo3/cms-lowlevel": "dev-main",
+    "typo3/cms-reports": "dev-main",
+    "typo3/cms-rte-ckeditor": "dev-main",
+    "typo3/cms-tstemplate": "dev-main",
+    "bnf/site": "dev-main"
   }
 }
-

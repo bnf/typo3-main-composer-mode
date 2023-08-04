@@ -1,0 +1,10 @@
+typo3-t3editor-codemirror,
+typo3-t3editor-codemirror textarea {
+    display: block;
+    max-width: 40em;
+    min-height: 10em;
+}
+typo3-t3editor-codemirror textarea {
+    width: 100%;
+    height: 100%;
+}

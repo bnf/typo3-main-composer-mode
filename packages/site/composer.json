@@ -1,0 +1,19 @@
+{
+    "name": "bnf/site",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0+",
+    "require": {
+        "typo3/cms-core": "dev-main",
+		"typo3/cms-t3editor": "dev-main"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "site"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bnf\\Site\\": "src"
+        }
+    }
+}

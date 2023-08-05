@@ -13,4 +13,3 @@ page.includeCSS.1 = EXT:site/Resources/Public/Css/main.css
 tt_content.textmedia >
 tt_content.textmedia = USER
 tt_content.textmedia.userFunc = Bnf\Site\Demo->demo
-#tt_content.textmedia >
